@@ -18,7 +18,7 @@
 <br>
 
 ## Description 
-**Coffee Cozy** is an ~~imaginary~~ awesome coffee shop that needs a landing page to boost their conversions & grow their customer. The landing page of **COVA** is built with HTML5, CSS3, and JavaScript using modern build tools.
+**Coffee Cozy** is an ~~imaginary~~ awesome coffee shop that needs a landing page to boost their conversions & grow their customer. The landing page of **Coffee Cozy** is built with HTML5, CSS3, and JavaScript using modern build tools.
 <details>
   <summary>View Page</summary>
   <br>
