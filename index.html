@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Coffee Cozy</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="./assets/img/logo.png" alt="logo coffee">
+            </div>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#discover">Discover</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div id="home" class="landing">
+            <div class="text-landing">
+                <h1>But First, <span>Coffee!</span></h1>
+                <button class="btn-box"><a href="#discover">Discover Now!</a></button>
+            </div>
+            <div class="landing-img">
+                <img src="./assets/img/coffee-landing.png" alt="coffee landing illustrations">
+            </div>
+            <div class="detail-landing">
+                <h1>Welcome to<br><span>Coffee Cozy</span></h1>
+                <p>Here we try to share our vision about food quality, our mission about customer’s satisfaction and
+                    introducing services that we provide for you.</p>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="content">
+            <section id=discover class="flex-section">
+                <div class="mission">
+                    <h2>Our Story</h2>
+                    <p>Coffee Cozy is an original coffee shop from Indonesia and a part of Kapal Api Group, the largest
+                        coffee producer in Indonesia . The first Café was opened in September 1991 in Plaza
+                        Indonesia, Jakarta. Coffee Cozy has grown to become one of the strongest and recognized coffee
+                        shop brands in around the worlds now.
+                    </p>
+                    <h3>100% Natural Coffee, Freshly Made, and Healthy Ingredients</h3>
+                    <p>We work side by side with farmers around the world to strengthen farming practices to cultivate
+                        the best coffee beans in the world. Then, we train our baristas in the sacred art of the brew
+                        process, yielding the most flavorful coffee you’ve ever tasted.</p>
+                    <p>Coffee Cozy is certified organic and fair trade.</p>
+                </div>
+                <div class="profile">
+                    <img src="./assets/img/discover-photo.jpg" alt="profile-photo">
+                </div>
+            </section>
+            <section id="products" class="page-section">
+                <div class="products-text">
+                    <h1><span>Our</span> Products</h2>
+                        <h3><em>Take a look at the variety of products we have to offer!</em></h3>
+                </div>
+                <div class="products-row">
+                    <article class="products-col">
+                        <img class="circle" src="./assets/img/product-3.png" alt="coffee">
+                        <h4>Coffee</h4>
+                        <p>Nice coffee, nice day! That's our devision because we believe every successful day should
+                            start with our excellent coffee. You know where to find it!</p>
+                    </article>
+                    <article class="products-col">
+                        <img class="circle" src="./assets/img/product-2.png" alt="tea">
+                        <h4>Tea</h4>
+                        <p>Tea is known as a greatly relaxing and healthy drink. Our tea taste can be described as sour
+                            and sweet to spicy and earthy. Try it now and find your favourite!</p>
+                    </article>
+                    <article class="products-col">
+                        <img class="circle" src="./assets/img/product-1.png" alt="desserts">
+                        <h4>Desserts</h4>
+                        <p>If you like dessert with your coffee, you'll really love our coffe shop! Everyday treats get
+                            a flavorful jolt of java in our desserts for coffee lovers.</p>
+                    </article>
+                </div>
+            </section>
+            <section id="gallery">
+                <div class="gallery-text">
+                    <h1><span>Shop</span> Gallery</h2>
+                        <h3><em>Because images are more expressive than a thousand words.</em></h3>
+                </div>
+                <div class="gallery-img">
+                    <div class="img-container">
+                        <img src="./assets/img/preview/gallery-preview-1.jpg" alt="Our &#10084;&#65039; Coffee Shop bar"
+                            data-original="assets\img\full\gallery-full-1.jpg">
+                    </div>
+                    <div class="img-container">
+                        <img src="./assets/img/preview/gallery-preview-2.jpg"
+                            alt="Find a cozy place to meet and study &#128104;&#8205;&#128187;"
+                            data-original="assets\img\full\gallery-full-2.jpg">
+                    </div>
+                    <div class="img-container">
+                        <img src="./assets/img/preview/gallery-preview-3.jpg" alt="Brewed &#9749; with &#10084;&#65039;"
+                            data-original="assets\img\full\gallery-full-3.jpg">
+                    </div>
+                    <div class="img-container">
+                        <img src="./assets/img/preview/gallery-preview-4.jpg"
+                            alt="Is your day truly finished if you haven't had dessert? &#127856;"
+                            data-original="assets\img\full\gallery-full-4.jpg">
+                    </div>
+                </div>
+                <div class="modal">
+                    <img src="" alt="" class="full-img">
+                    <p class="caption"></p>
+                </div>
+            </section>
+            <section id="contact">
+                <div class="contact-form">
+                    <h1>Contact <span>Us</span></h1>
+                    <h3><em>You can also use this contact form to reach us</em></h3>
+                    <div class="form">
+                        <div class="short-form">
+                            <input type="text" name="name" autocomplete="off" required>
+                            <label for="name" class="label-name">
+                                <span class="content-name">Name</span>
+                            </label>
+                        </div>
+                        <div class="short-form">
+                            <input type="text" name="email" autocomplete="off" required>
+                            <label for="email" class="label-name">
+                                <span class="content-name">Email</span>
+                            </label>
+                        </div>
+                        <div class="short-form">
+                            <input type="text" name="phone" autocomplete="off" required>
+                            <label for="phone" class="label-name">
+                                <span class="content-name">Phone</span>
+                            </label>
+                        </div>
+                        <div class="short-form">
+                            <input type="text" name="message" autocomplete="off" required>
+                            <label for="message" class="label-name">
+                                <span class="content-name">Message</span>
+                            </label>
+                        </div>
+                    </div>
+                    <button class="btn-box"><a href="#">Send Message</a></button>
+                </div>
+                <div class="contact-img">
+                    <img src="./assets/img/Group 45.png" alt="coffee illustrations">
+                </div>
+            </section>
+        </div>
+        <aside>
+            <div class="author">
+                <h1>Author <span>Profile</span></h1>
+            </div>
+            <div class="author-content">
+                <div class="author-img">
+                    <img src="./assets/img/profile.png" alt="author photo">
+                </div>
+                <div class="author-text">
+                    <h1>Deyndrawan Sutrisno</h1>
+                    <p>Hi there, I'm Deyndrawan! 👋<br>Mechanical engineering student and a passionate self-taught
+                        front-End web developer from Indonesia.</p>
+                    <div class="social-media">
+                        <a href="#"><img src="./assets/img/facebook.svg" alt="facebook"></a>
+                        <a href="#"><img src="./assets/img/instagram.svg" alt="instagram"></a>
+                        <a href="#"><img src="./assets/img/twitter.svg" alt="twitter"></a>
+                    </div>
+                </div>
+            </div>
+        </aside>
+    </main>
+    <footer id="footer">
+        <hr>
+        <div class="footer-row">
+            <div class="footer-col-left">
+                <div class="footer-logo">
+                    <img src="./assets/img/logo.png" alt="logo footer">
+                </div>
+            </div>
+            <div class="footer-col-right">
+                <div class="coffee">
+                    <h2>Coffee Cozy</h2>
+                    <ul class="footer-content">
+                        <li class="footer-list"><a href="#discover">About Us</a></li>
+                        <li class="footer-list"><a href="#contact">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="products">
+                    <h2>Products</h2>
+                    <ul class="footer-content">
+                        <li class="footer-list"><a href="#">Coffee</a></li>
+                        <li class="footer-list"><a href="#">Tea</a></li>
+                        <li class="footer-list"><a href="#">Desserts</a></li>
+                    </ul>
+                </div>
+                <div class="location">
+                    <h2>Location</h2>
+                    <ul class="footer-content">
+                        <li class="footer-list"><a href="#">Jakarta</a></li>
+                        <li class="footer-list"><a href="#">Bali</a></li>
+                        <li class="footer-list"><a href="#">New York</a></li>
+                        <li class="footer-list"><a href="#">California</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <p>Brewed with &#10084;&#65039; in Indonesia &copy; 2020 Coffe Cozy. All Rights Reserved</p>
+    </footer>
+    <script src="./assets/js/app.js"></script>
+</body>
+
+</html>
